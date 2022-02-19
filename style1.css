@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap');
+
+body{
+    background-color: #E5E5E5;
+}
+
+.container{
+    max-width: 664px;
+    margin: 0 auto;
+}
+
+.name{
+    display: flex;
+}
+
+.title{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    line-height: 17px;
+    font-family: 'Sora', sans-serif;
+}
+
+
+h1 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    line-height: 16px;
+    font-family: 'Sora', sans-serif;
+}
+
+p{
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    font-family: 'Sora', sans-serif;
+    margin-bottom: 5px;
+}
+
+.an{
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    font-family: 'Sora', sans-serif;
+    margin-right: 160px;
+    margin-bottom: 10px;
+}
+
+.name input, select{
+    margin-top: 1px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-right: 8px;
+    text-align: left;
+    border: 2px solid #AEAEAE;
+    width: 200px;
+    height: 48px;
+    border-radius: 8px;
+    color: #AEAEAE;
+    box-sizing: border-box;
+}
+
+.date{
+    display: flex;
+}
+
+.date input{
+    margin-top: 1px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-right: 8px;
+    text-align: left;
+    border: 2px solid #AEAEAE;
+    width: 200px;
+    height: 48px;
+    border-radius: 8px;
+    color: #AEAEAE;
+    box-sizing: border-box;
+
+}
+
+.avn input{
+    margin-top: 1px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-right: 8px;
+    text-align: left;
+    border: 2px solid #AEAEAE;
+    width: 408px;
+    height: 48px;
+    border-radius: 8px;
+    color: #AEAEAE;
+    box-sizing: border-box;
+
+
+}
+
+
