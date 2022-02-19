@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap');
+
+.container{
+    margin-bottom: 45px;
+}
+
+h6{
+    font-family: 'Sora', sans-serif;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 3px;
+}
+
+.data{
+    display: flex;
+    margin-top: 3px;
+}
+
+.data .data-input1, .data-input2, .salary, .product{
+    margin-top: 1px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-right: 8px;
+    text-align: left;
+    border: 2px solid #AEAEAE;
+    width: 198px;
+    height: 48px;
+    border-radius: 8px;
+    color: #AEAEAE;
+    box-sizing: border-box;
+}
+
+.data .data-input2{
+    width: 408px;
+}
+
+.data .salary{
+    width: 302px;
+}
+
+.data .product{
+    width: 611px;
+}
+
+.data .credit-data{
+    width: 198px;
+    margin-right: 8px;
+}
+
+.submit-button{
+    display: flex;
+    justify-content: center;
+}
+
+.submit-button button{
+    border: none;
+    border-radius: 10px;
+    background-color: #232529;
+    color: antiquewhite;
+    font-size: 18px;
+    margin-top: 30px;
+    width: 385px;
+    height: 60px;
+}
+
+.submit-button button:hover{
+    cursor: pointer;
+}

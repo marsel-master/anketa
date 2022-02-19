@@ -7,76 +7,159 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
-<div class="container">
-    <div>
-        <h1>Анкета для корпоративных клиентов</h1>
-        <h1 class="title">Личные данные</h1>
+<form action="javascript:void(0)">
+    <div class="container">
+        <div>
+            <h1>Анкета для корпоративных клиентов</h1>
+            <h1 class="title">Личные данные</h1>
+        </div>
+        <div class="name">
+            <div>
+                <p>Фамилия</p>
+                <input type="text" placeholder="Иванов">
+            </div>
+            <div>
+                <p>Имя</p>
+                <input type="text" placeholder="Иван">
+            </div>
+            <div>
+                <p>Отчество</p>
+                <input type="text" placeholder="Иванович">
+            </div>
+        </div>
+        <div class="date">
+            <div>
+                <p>Дата рождения</p>
+                <input type="date" value="12.12.2021">
+            </div>
+            <div class="avn">
+                <p>Фактическое место проживания</p>
+                <input type="text" placeholder="Бишкек. Чокморова 23/3 кв.43">
+            </div>
+        </div>
+        <div class="name">
+            <div>
+                <p>Контактный номер</p>
+                <input type="text" placeholder="+996 555 000 000">
+            </div>
+            <div>
+                <p>Электронный адрес</p>
+                <input type="text" placeholder="ivanov@mail.ru">
+            </div>
+        </div>
+        <h1 class="title">Паспортный данные</h1>
+        <div class="name">
+            <div>
+                <p>Серийный номер AN\ID</p>
+                <input type="text" placeholder="AN1234567">
+            </div>
+            <div>
+                <p>ИНН</p>
+                <input type="text" placeholder="1234567">
+            </div>
+            <div>
+                <p>Дата получения</p>
+                <input type="date" value="12.12.2021">
+            </div>
+        </div>
+        <div class="date">
+            <div>
+                <p>Наименование банка</p>
+                <select>
+                    <option value="1">Наименивоание банка</option>
+                    <option value="2">Наименивоание банка</option>
+                </select>
+            </div>
+            <div class="avn">
+                <p>Фактическое место проживания</p>
+                <input type="text" placeholder="Бишкек. Чокморова 23/3 кв.43">
+            </div>
+        </div>
+        <div>
+            <h6>Данные о ваших доходах</h6>
+            <div class="data">
+                <div>
+                    <p>Организация</p>
+                    <input class="data-input1" type="text" placeholder="Megacom">
+                </div>
+                <div>
+                    <p>Должность</p>
+                    <input class="data-input2" type="text" placeholder="Ведущий бухгалтер">
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="data">
+                <div>
+                    <p>Заработная плата в месяц</p>
+                    <input class="salary" type="text">
+                </div>
+                <div>
+                    <p>Заработная плата за посл. 3 месяца</p>
+                    <input class="salary" type="text">
+                </div>
+            </div>
+        </div>
+        <div>
+            <h6>Сведения о кредите</h6>
+            <div class="data">
+                <div>
+                    <p>Покупка товара (наименование товара)</p>
+                    <input class="product" type="text" placeholder="IPhone XS 256Gb">
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="data">
+                <div>
+                    <p>Стоимость товара</p>
+                    <input class="data-input1" type="text" placeholder="65 000 сом">
+                </div>
+                <div>
+                    <p>Количество товара</p>
+                    <input class="data-input1" type="text" placeholder="1 шт">
+                </div>
+                <div>
+                    <p>Итого сумма кредита</p>
+                    <input class="data-input1" type="text" placeholder="65 000 сом">
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="data">
+                <div class="credit-data">
+                    <p>Вид кредита</p>
+                    <select>
+                        <option value="1">кредит/рассрочка</option>
+                        <option value="2">кредит</option>
+                        <option value="3">рассрочка</option>
+                    </select>
+                </div>
+                <div class="credit-data">
+                    <p>Срок кредита (мес)</p>
+                    <select>
+                        <option value="1">мин. 3 месяца</option>
+                        <option value="2">макс. 7 месяцев</option>
+                    </select>
+                </div>
+                <div class="credit-data">
+                    <p>Точка получения товара</p>
+                    <select>
+                        <option value="1">Выберите адрес</option>
+                        <option value="2">ЦУМ "Айчурек"</option>
+                        <option value="3">ГУМ "Чынар"</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="submit-button">
+            <button>Оформить заявку</button>
+        </div>
     </div>
-    <div class="name">
-        <div>
-            <p>Фамилия</p>
-            <input type="text" placeholder="Иванов">
-        </div>
-        <div>
-            <p>Имя</p>
-            <input type="text" placeholder="Иван">
-        </div>
-        <div>
-            <p>Отчество</p>
-            <input type="text" placeholder="Иванович">
-        </div>
-    </div>
-    <div class="date">
-        <div>
-            <p>Дата рождения</p>
-            <input type="date" value="12.12.2021">
-        </div>
-        <div class="avn">
-            <p>Фактическое место проживания</p>
-            <input type="text" placeholder="Бишкек. Чокморова 23/3 кв.43">
-        </div>
-    </div>
-    <div class="name">
-        <div>
-            <p>Контактный номер</p>
-            <input type="text" placeholder="+996 555 000 000">
-        </div>
-        <div>
-            <p>Электронный адрес</p>
-            <input type="text" placeholder="ivanov@mail.ru">
-        </div>
-    </div>
-    <h1 class="title">Паспортный данные</h1>
-    <div class="name">
-        <div>
-            <p>Серийный номер AN\ID</p>
-            <input type="text" placeholder="AN1234567">
-        </div>
-        <div>
-            <p>ИНН</p>
-            <input type="text" placeholder="1234567">
-        </div>
-        <div>
-            <p>Дата получения</p>
-            <input type="date" value="12.12.2021">
-        </div>
-    </div>
-    <div class="date">
-        <div>
-            <p>Наименование банка</p>
-            <select>
-                <option value="1">Наименивоание банка</option>
-                <option value="2">Наименивоание банка</option>
-            </select>
-        </div>
-        <div class="avn">
-            <p>Фактическое место проживания</p>
-            <input type="text" placeholder="Бишкек. Чокморова 23/3 кв.43">
-        </div>
-    </div>
-</div>
+</form>
 
 </body>
 </html>
